@@ -1,5 +1,6 @@
 # Aprendendo Kubernetes 
  - Alura
+ - Kubernetõ
 
 ## Comandos
 - Minikube
