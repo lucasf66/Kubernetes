@@ -17,6 +17,8 @@
 	- Comandos do Kubectl
 		- kubectl get pods
 			- utilizando o argumento --watch é possível ver as atualizações
-		- kubectl describe pod <nome do pod>
-		- kubectl delete pod <nome do pod>
+		- kubectl describe pod <nome do pod> or
+		kubectl describe pod -o wide (ver o ip)
+		- kubectl delete pod <nome do pod> or kubectl delete -f <file yaml>
 		- kubectl edit pod <nome do pod>
+		- kubectl exec -it <nome do pod> -- <comando>(normalmente bash) (Igual no docker)
